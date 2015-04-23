@@ -1,0 +1,37 @@
+/*TP2-Par
+*DA
+*20150423
+*/
+
+#include "stdafx.h"
+#include <iostream>
+int _tmain()
+{
+int pause;	
+
+bool resultado;
+int valorA;
+
+std::cout << "Ingrese entero ";
+std::cin >> valorA;
+
+if ( valorA % 2== 0 )
+{
+	std::cout << "PAR";
+}
+else
+{
+	std::cout << "IMPAR";
+}
+
+std::cin >> pause;
+
+/*
+Ingrese entero 10
+PAR
+
+Ingrese entero 11
+IMPAR
+*/
+
+}
